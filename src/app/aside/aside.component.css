@@ -1,30 +1,58 @@
-.container{
+span{
+    background-color: black;
+}
+.d-flex{
     margin-top: 40px;
-    background-color: blue;
-    border-radius: 30px;
-    width: 80%;
-    height: 80vh;
+    border-radius: 20px;
 }
-.container-ss{
-    padding: 30px;
+.p-2{
+    border-radius: 20px;
+    margin: 10px;
+    border-left: 10px solid rgb(255, 255, 255);
+    
+}
+.card,.card-img-top{
+    border-radius: 20px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #c0da15;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.bgPrimary{
+background-color: rgba(50, 55, 206, 0.5);
+}
+h2,p{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+h2{
+    font-size: 40px;
+    font-weight: bold;
 }
-.col-4{
-    margin-right: 20px;
-    background-image: url("https://images.pexels.com/photos/5855210/pexels-photo-5855210.jpeg?auto=compress&cs=tinysrgb&w=600");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 30%;
-}
-img {
-    max-width: 100%;
-    max-height: 100%;
-    }
-p{
+#myp{
     color: white;
-    padding-top: 30px;
 }
-.col-4,.col-6{
+.card-title{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn{
+    margin-top: 20px;
     border-radius: 30px;
+    padding: 15px 40px;
+    background-color: rgba(235, 2, 185, 0.5);
+}
+.btnPrimary{
+    border-bottom: 8px solid rgb(60, 30, 30);
+   font-weight: bold;
+}
+.bgInfo,.bgWarning,.bgPmary{
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+.bgSecondary{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
