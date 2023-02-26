@@ -1,0 +1,30 @@
+.container{
+    margin-top: 40px;
+    background-color: blue;
+    border-radius: 30px;
+    width: 80%;
+    height: 80vh;
+}
+.container-ss{
+    padding: 30px;
+
+}
+.col-4{
+    margin-right: 20px;
+    background-image: url("https://images.pexels.com/photos/5855210/pexels-photo-5855210.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    }
+p{
+    color: white;
+    padding-top: 30px;
+}
+.col-4,.col-6{
+    border-radius: 30px;
+}

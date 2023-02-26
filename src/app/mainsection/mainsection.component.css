@@ -1,0 +1,33 @@
+.sect{
+ background-color: aqua;   
+
+ float: right;
+ background-image: url("https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=600");
+ height: 60vh;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+.myp{
+    color:white;
+    inline-size: 350px; 
+    margin-top: 20px;
+
+}
+.mypp{
+
+    margin-top: 20px;
+   
+}
+.container{
+  background-color: rgba(255, 255, 0, 0.5);
+  width: 50vw;
+  float: right;
+  margin-right:30px ;
+ margin-top: -100px;
+ height: 50vh;
+ border-radius: 30px;
+}
+.mydiv{
+  background-color: rgba(255, 255, 0, 0.0);
+}

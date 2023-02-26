@@ -1,0 +1,16 @@
+.navbar{
+ background-image: url("https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.navbar-brand,.pp{
+   color: white;
+   font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-toggler{
+    color: antiquewhite;
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 20px;
+}
+.pp{
+  margin-top: 18px;
+}
